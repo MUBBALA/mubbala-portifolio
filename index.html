@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunRise Medical center</title>
+    <link rel="stylesheet" href="css/style.css">     
+
+    <!--using fontawesome just gotten my kit-->
+    <script src="https://kit.fontawesome.com/a58b5e990b.js" crossorigin="anonymous"></script>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <!--<img src="images/bethany-logo1.png" alt="" width="100" height="100">--> 
+           <h1 class="logo">SunRise</h1>
+           <span  class="subtitle">Medical Center</span>
+        </div>
+        <button class="nav-toggle" area-label="toggle navigation" >
+            <span class="hambargar"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#intro" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Introduction-->
+    <section class="intro" id="intro">
+        <h1 class="section__title section__title--intro">
+            The Heart of <strong>Perfect Care</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">SunRise Medical Center</p>
+        <img src="images/profile-01.jpg" alt="picture of jane smith" class="intro__img">
+    </section>
+
+    <!--About me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">About Us</h2>
+        <p class="section__subtitle section__subtitle--about">We are Your perfect trusted friend 
+            whenever you are in need of help concerning health</p>
+
+        <div class="about-me__body">
+            <p>SunRise Medical center is a medical facility that offers a wide range of medical services
+                such as medical consultation, Laboratory services, detal, ophthalmology (eye care),
+                Imaging services and mobile medical services.
+             </p>
+            <p>We get new clients from direct walk in for services, refferals from old clients,
+                some clients finds us using social media platforms like our facebook and twitter.
+            </p>
+            <div class="about-me__extra-info icons">
+                <div class="row">
+                    <i class="fas fa-truck"></i><!--icon to place here by class of manually-->
+                    <div class="info">
+                        <p class="info__head">Emergency Support</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                             Commodi in at earum?</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <i class="fas fa-clock"></i><!--icon to place here by class of manually-->
+                    <div class="info">
+                        <h4 class="info__head">24/7 Support</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur,
+                             adipisicing elit. Fugiat, nisi.</p>
+                    </div>
+                </div>   
+            </div>
+            <a href="#" class="btn">Explore More</a>
+        </div>
+
+        <img src="images/profile-03-4.png" alt="jane leaning against the bus" class="about-me__img">
+    </section>
+
+     <!--Our Services----->
+
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">Our departments</h2>
+        <p class="section__subtitle section__subtitle--services">All the services that we provide to our patients
+            in the field of treatment
+        </p>
+        <div class="services">
+            <div class="services">
+                <div class="service">
+                    <img src="images/portfolio-02.jpg" alt="" class="service__img">
+                    <h3>Medical Counseling</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Voluptatibus nulla quas deserunt ad,</p>
+                </div><!--/service-->
+                <div class="service service-1">
+                    <img src="images/portfolio-02.jpg" alt="" class="service__img">
+                    <h3>Dental</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea atque doloribus
+                         dolore maxime ratione quod. </p>
+                </div><!--/service-->
+                <div class="service">
+                    <img src="images/portfolio-02.jpg" alt="" class="service__img">
+                    <h3>Optical center</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae atque 
+                        odio nihil perferendis quod sequi!</p>
+                </div><!--/service-->
+                <div class="service">
+                    <img src="images/portfolio-02.jpg" alt="" class="service__img">
+                    <h3>Laboratory test</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate 
+                        doloremque in ad dolorum, aliquid laboriosam.</p>
+                </div><!--/service-->
+            </div><!--/services-->
+           
+        </div>
+    </section>
+    <!---->
+
+
+    <!--Emergency support-->
+
+    <section class="emergency" id="emergency">
+        <div class="emergency-container">
+            <div class="emergency-box info">
+                <h2 class="section__title section__title--work">Get <span>Emergency </span>Care 24/7</h2>
+                <p class="section__subtitle section__subtitle--emergency">We are always at your side. we are 24 
+                    hours available for you incase of any emergency situation</p>
+                <p class=" section__subtitle--emergency-tel"><span>
+                    <i class="fas fa-phone"></i><a href="tel: +256702946300">+256 (0) 702 946 300</a>
+                            </span></p>
+            </div>
+            <div class="emergency-box form-content">
+                <p class="form-title">Book for Appointment</p>
+                <form action="bmubbala44@gmail.com">
+                    <div class="fields">
+                        <div class="fields__input">
+                            <div class="field selection">
+                                <select name="departments" id="" class="selection" required>
+                                    <optgroup label="Doctor Name">
+                                        <option value="">Medical Counseling</option>
+                                        <option value="">Optical Center</option>
+                                        <option value="">Laboratory test</option>
+                                        <option value="">Dental</option>
+                                        <option value="">General medicine</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <div class="field date">
+                                <input type="date" required/>
+                            </div>
+                         </div>
+                        <div class="field button">
+                            <button type="submit">Book Now</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+     <!--Our Specialist----->
+    <section class="our-specialists" id="specialits">
+        <h2 class="section__title section__title--specialists">Meet Our Experts</h2>
+        <p class="section__subtitle section__subtitle--specialists">We have Speciality doctors 
+            for emergency services
+        </p>
+        <div class="specialists">
+            <div class="specialists">
+                <div class="specialist">
+                    <img src="images/profile-03.jpg" alt="" class="service__img">
+                    <div class="specialist-head">Dentist</div>
+                    <p>Mubbala Oscar</p>
+                </div><!--/specialist-->
+                <div class="specialist ">
+                    <img src="images/profile-03.jpg" alt="" class="service__img">
+                    <div class="specialist-head">Doctor </div>
+                    <p>Musimorya Nicolous</p>
+                </div><!--/specialist-->
+                <div class="specialist">
+                    <img src="images/profile-03.jpg" alt="" class="service__img">
+                    <div class="specialist-head">Orthopedics Surgeon</div>
+                    <p>Mubbala Brian</p>
+                </div><!--/specialist-->
+                <div class="specialist">
+                    <img src="images/profile-03.jpg" alt="" class="service__img">
+                    <div class="specialist-head">Surgery Surgeon</div>
+                    <p>Kyakwita Andrew</p>
+                </div><!--/specialist-->
+            </div><!--/specialist--> 
+        </div>
+    </section>
+    <!--Consultancy and video-->
+    <section class="consultancy" id="consultancy">
+                <div class="consultancy__img">
+                        <img src="images/sun-light-02.jpg" alt=""/> 
+                </div>
+                <div class="consultacy__text">
+                    <!--consultancy heading-->
+                    <h3>Want Online Consultancy?</h3> 
+                    <p>We provide all our best possible care to all our Patients and do 
+                        welcome new patients to sample</p>
+                    <!--consultancy form-->
+                    <div class="consultancy__form">
+                        <form action="">
+                            <!--feilds start-->
+                            <div class="fields">
+                                <!--row1-->
+                                <div class="field field-row1">
+                                    <input type="text" name="name" id="name" placeholder="Your Name*" required />
+                                    <select name="choose-department" id="" aria-placeholder="Choose department" required>
+                                        <option value="">Dental</option>
+                                        <option value="">General Medicine</option>
+                                        <option value="">Medical conseling</option>
+                                        <option value="">Laboratory test</option>
+                                    </select>
+                                </div>
+                                <!--row2-->
+                                <div class="field field-row2">
+                                    <input type="tel" placeholder="+256 702 185 199" required>
+                                    <input type="email" name="email" placeholder="Email" required>
+                                </div>
+                                <!--ro3-->
+                                <div class="field row3-textarea">
+                                    <textarea name="message"  placeholder="Message here"></textarea>
+                                </div>
+                                <!--row4-->
+                                <div class="field button">
+                                    <button  type="submit" class="submit-btn">SEND MESSAGE</button>
+                                    <span>*Personal data will be encrypted</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!--Testimonials------>
+    <section class="testimonials">
+        <h2 class="section__title section__title--testimonials">Testimonials</h2>
+        <p class="section__subtitle section__subtitle--testimonials">
+            What our Recovered Patients Say
+        </p>
+        <div class="testimonial__wrapper">
+            <div class="testimonial testimo-1">
+                <div class="testimo-1__img">
+                    <img src="images/profile-03-2.jpg" alt="Picture of Doctor Musimorya">
+                </div>
+                <div class="testimo-1__content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eum delectus porro, recusandae perferendis optio, illum, magnam expedita asperiores autem incidunt quos. Fugit optio, earum amet repellendus sint quae esse.</p>
+                    <div class="testimo-1__content testimo-1__content--credit">
+                         <!--Patients info---->
+                         <div class="client-info">
+                            <h3 class="sub-title">Dr.Musimolya Nicholous</h3>
+                            <em>CEO Sunlight medical center</em>
+                        </div>
+                        <!--stars/reviews--------->
+                        <div class="star">
+                            <i class="fas fa-star">a</i>
+                            <i class="fas fa-star">a</i>
+                            <i class="fas fa-star">a</i>
+                            <i class="fas fa-star">a</i>
+                            <i class="fas fa-star">a</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial testimo-2">
+                <div class="testimo-2__content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ducimus,
+                         ratione vel aperiam quaerat quam ad repellendus non earum tempora est 
+                         distinctio et illum maiores totam ut iste consequatur quasi!</p>
+                    <div class="testimo-1__content testimo-2__content--credit">
+                          <!--Patients info---->
+                          <div class="client-info">
+                            <h3 class="sub-title">Dr.Musimolya Nicholous</h3>
+                            <em>CEO Sunlight medical center</em>
+                        </div>
+                        <!--stars/reviews--------->
+                        <div class="star">
+                            <i class="fas fa-star">a</i><!--to be fetched from fontawsome site to the users device-->
+                            <i class="fas fa-star">a</i>
+                            <i class="fas fa-star">a</i>
+                            <i class="fas fa-star">a</i>
+                            <i class="fas fa-star" >a</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimo-2__img">
+                    <img src="images/profile-03-2.jpg" alt="Picture of Doctor Musimorya">
+                </div>
+            </div>
+        </div>
+    </section>
+      <!--comment------------------------->
+      <section id="contact"> 
+        <!--input--------------------->
+        <div class="contact-input">
+            <!--heading--------->
+            <h3><span><i class="fas fa-chat">@</i></span>Any Comments?</h3>
+            <div class="contact-block">
+           <textarea name="" id="" cols="30" rows="2" placeholder="write your thoughts here...."></textarea>
+            <!--btn-------->
+            <a href="#">Submit a comment</a>
+            </div>
+        </div>
+    </section>
+    
+        <!--My Blogs------->
+        <section class="blogs" id="blogs">
+            <div class="blogs__info">
+                <h2 class="title">Recent News</h2>
+                <p class="text">All our recent news about our treatment with us has been
+                     published. Stay Update with Sunlight Medical Center recent posts</p>
+            </div>
+                <!--blogs container-->
+                <div class="blog-content">
+                        <!--box-1------->
+                        <div class="blog-box">
+                            <!--img------>
+                            <img src="images/blog1.jpg" alt="Mubbala-profile"/>
+                            <!--client info-->
+                            <div class="blog-info">
+                                <em><span class="fas fa-user"></span>Mubbala Brian &ThickSpace;
+                                    <span class="far fa-clock"></span><span>January 10, 2021</span></em>
+                                <h3 class="sub-title">Bank is the best way to save in the future.</h3>
+                            </div>
+
+                            <!--blog details------->
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <!--btn-->
+                            <a href="#">Read More</a>
+                        </div> 
+                        <!--box-2------->
+                        <div class="blog-box">
+                            <!--img------>
+                            <img src="images/portfolio-02.jpg" alt=""/>
+                            <!--client info-->
+                            <div class="blog-info">
+                                <em><span class="fas fa-user"></span>Kyakwita Joy  &ThickSpace;
+                                    <span class="far fa-clock"></span> <span>January 02, 2021</span></em>
+                                <h3 class="sub-title">Why do you need to open a bank account?</h3>
+                            </div>
+
+                            <!--blog details------->
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <!--btn-->
+                            <a href="#">Read More</a>
+                        </div> 
+
+                        <!--box-3------->
+                        <div class="blog-box">
+                            <!--img------>
+                            <img src="images/blog1.jpg" alt="Mubbala-profile"/>
+                            <!--client info-->
+                            <div class="blog-info">
+                                <em><span class="fas fa-user"></span>Mubbala Brian &ThickSpace;
+                                    <span class="far fa-clock"></span><span>January 10, 2021</span></em>
+                                <h3 class="sub-title">The benefits that we get through credit cards.</h3>
+                            </div>
+                            <!--blog details------->
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <!--btn-->
+                            <a href="#">Read More</a>
+                        </div>            
+                </div>
+        </section> <!--/My Blogs------->
+
+
+
+
+    <!--News letter-->
+    <section class="newsletter" id="newsletter">
+        <div class="newletter-container">
+            <div class="newsletter-box info">
+                <h2 class="section__title section__title--work">Subscribe Our <span>Newsletter</span></h2>
+                <p class="section__subtitle section__subtitle--newsletter">We are always at your side. we are 24 
+                    hours available for you incase of any emergency situation</p>
+            </div>
+            <div class="newsletter-box form-content">
+                <form action="bmubbala44@gmail.com">
+                    <div class="fields">
+                        <div class="field email">
+                            <input type="email" placeholder="Email" required/>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="field checkbox" id="checkbox-adverts">
+                        <label for="checkbox-adverts">
+                            <input type="checkbox" checked> Don't provide any promotion message
+                        </label>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--footer section start-->
+    <footer class="footer">
+    <div class="footer-first">
+        <div class="footer__col footer__col--1">
+            <a href="#" class="footer__link">SunRise <span class="logo-subtitle">Medical center</span></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea atque doloribus
+                dolore maxime ratione quod. Perspiciatis odio maiores officiis ipsum?</p>
+            
+                <a href="#" class="btn btn-footer">Read more</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                            </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" 
+                    href="https://facebook.com">
+                    <i class="fab fa-facebook-f"></i>
+                        </a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://whatapp.com">
+                    <i class="fab fa-whatsapp"></i>
+                            </a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://twitter.com">
+                     <i class="fab fa-instagram"></i>
+                        </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__col footer__col--2">
+           <h3 class="footer__title"><a href="#" >Useful Links</a></h3> 
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link"
+                    href="#about">&rsaquo; About us</a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="#services">&rsaquo; Departments</a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" 
+                    href="#">&rsaquo; Services</a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="#">&rsaquo; Get Appoitment</a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="#">&rsaquo; Doctors</i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="#">&rsaquo; Testimonials</i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="#">&rsaquo; Cotact us</i></a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="footer__col footer__col--3">
+            <h3 class="footer__title"><a href="#" >Open Hours</a></h3>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <p>Mon&mdash;Fri ---- 8:00am-9.30 pm</p>
+                </li>
+                <!--
+                <li class="social-list__item">
+                    <p>Tuesday ---- 8:00am-9.30 pm</p>
+                </li>
+                <li class="social-list__item">
+                    <p>Wednesday ---- 8:00am-9.30 pm</p>
+                </li>
+                <li class="social-list__item">
+                    <p>Thursday ---- 8:00am-9.30 pm</p>
+                </li>
+                <li class="social-list__item">
+                    <p>Friday ---- 8:00am-9.30 pm</p>
+                </li>
+                -->
+                <li class="social-list__item">
+                    <p>Saturday ---- 8:00am-9.30 pm</p>
+                </li>
+                <li class="social-list__item">
+                    <p>Sunday ---- 8:00am-9.30 pm</p>
+                </li>
+            </ul>
+            <div class="footer-contacts">
+                <h3 class="footer__contacts-head">Contact Us</h3>
+                <div class="icons">
+                         <div class="row row1">
+                            <i class="fas fa-map-marker-alt"></i> <!--icon to be fetched from fontawesome-->
+                            <div class="info">
+                                <div class="sub-title">Kigoogwa-Mityana town-councel, <br> Mityana-town,Uganda.</div>
+                            </div>
+                        </div>
+                        <div class="row row2">
+                            <i class="fas fa-phone"></i>
+                            <div class="info">
+                                <div class="sub-title"> +256(0) 782 946 300 / +256(0) 702 946 300</div>
+                            </div>
+                        </div>
+                        <div class="row row3">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="sub-title">sunrisemedical2014@gmail.com</div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+         <!--footer-last section start-->
+
+         <div class="footer-last" >
+            <span>SunRise Medical center
+                <span> &copy;</span>2021 All rights reserved. |
+                 Website Developed By <a href="#"> Mbrianztec&mdash;Mubbala Brian</a> | 
+                 Follow me on twitter  <i class="fab fa-twitter"></i> <a href="#"> @mbrianztec.</a></span>
+        </div>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
